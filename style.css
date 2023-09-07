@@ -13,6 +13,7 @@ header{
     margin: auto;
     background-color: #ffffff;
     position: fixed;
+    z-index: 1;
 }
 header nav div{
     width: fit-content;
@@ -108,6 +109,7 @@ header nav input::placeholder{
     margin-left: 16%;
     margin-top: 70px;
     background-color: #ffffff;
+    z-index: 1;
 }
 .nav-slide .wrap{
     display: flex;
