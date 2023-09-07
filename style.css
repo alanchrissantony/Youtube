@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+.root{
+    width: 100%;
+}
+header{
+    height: 70px;
+    justify-content: center;
+    margin: auto;
+    background-color: #ffffff;
+    position: fixed;
+}
+header nav div{
+    width: fit-content;
+    height: fit-content;
+}
+header nav .bar-icon{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+header nav .logo-icon{
+    width: 90px;
+    height: 20px;
+    cursor: pointer;
+}
+header nav .input .search{
+    height: 38px;
+    width: 64px;
+    background-color: #f8f8f8;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    border: 1px solid gainsboro;
+    display: flex;
+    cursor: pointer;
+}
+header nav .search-icon{
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+header nav .voice{
+    height: 36px;
+    width: 36px;
+    display: flex;
+    background-color: gainsboro;
+    border-radius: 50%;
+    cursor: pointer;
+}
+header nav .right-icon{
+    height: 36px;
+    width: 36px;
+    display: flex;
+    border-radius: 50%;
+    cursor: pointer;
+}
+header nav .right-icon:hover{
+    background-color: gainsboro;
+}
+header nav .voice-icon{
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+header nav .create-icon{
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+header nav .notification-icon{
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+header nav .profile{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    cursor: pointer;
+}
+header nav img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: auto;
+}
+header nav input{
+    width: 100%;
+    height: 38px;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    border: 1px solid gainsboro;
+    font-size: 15px;
+    padding: 0 0 0 2.5%;
+    outline: none;
+}
+header nav input::placeholder{
+    color: gray;
+    font-weight: 300;
+}
+
+.nav-slide{
+    position: fixed;
+    margin-left: 16%;
+    margin-top: 70px;
+    background-color: #ffffff;
+}
+.nav-slide .wrap{
+    display: flex;
+    overflow-x: scroll;
+}
+.nav-slide .wrap::-webkit-scrollbar{
+    display: none;
+}
+.nav-slide .wrap .content{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 0.25rem 0 0.25rem;
+}
+.nav-slide .wrap .content p{
+    width: fit-content;
+    height: fit-content;
+    background-color: gainsboro;
+    color: #111111;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    font-size: 14px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.nav-slide .wrap .content p:hover{
+    background-color: lightgrey;
+}
+
+.sidebar{
+    position: fixed;
+    float: left;
+    overflow-y: auto;
+    height: 795px;
+    margin-top: 70px;
+}
+.sidebar svg{
+    width: 40px;
+    height: 24px;
+}
+.sidebar p{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 1rem 0 0 0;
+}
+.sidebar .content{
+    padding-left: 1rem;
+    align-items: center;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.sidebar .content:hover{
+    background-color: #f8f8f8;
+}
+.sidebar hr{
+    border: 0.5px solid darkgray;
+}
+.sidebar .footer p{
+    float: left;
+    margin: 0 5px 0 5px;
+    line-height: 5px;
+    font-size: 14px;
+    color: darkgray;
+}
+
+.row-posts{
+    margin-left: 16.70%;
+    margin-top: 125px;
+}
+.row-posts .details{
+    width: 93%;
+    height: auto;
+    display: flex;
+    padding-top: 1rem;
+}
+.row-posts .image{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.row-posts .image div{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 85%;
+    margin-left: 80%;
+}
+.row-posts .image img{
+    width: 95%;
+    height: auto;
+    border-radius: 1rem;
+}
+.row-posts .image .time-stamp{
+    background-color: #111111;
+    width: fit-content;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+}
+.row-posts .details .image div{
+    justify-content: end;
+}
+.row-posts .details .image img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    float: left;
+}
+.row-posts .details .title{
+    padding-left: 1rem;
+    font-size: 16px;
+    font-weight: 500;
+}
+.row-posts .details .sub-text{
+    font-size: 14px;
+    color: gray;
+}
+
+.spacing div{
+    width: 100%;
+    height: 800px;
+    float: left;
+}
